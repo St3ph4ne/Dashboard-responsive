@@ -1,9 +1,18 @@
+body{
+    background-color: darkslateblue;
+}
+
 body , div{
-    margin: 0 ;
+    margin: 0;
     padding: 0;
 }
 
 div{
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.container{
     box-sizing: border-box;
     width: 100%;
 }
@@ -17,40 +26,16 @@ div{
     background-color: aquamarine;
 }
 
-.browser-container{
-    width: 100%;
-}
-
 .hide{
     display: none;
 }
 
 
-/* VERSION MOBILE */
-.c-1{
-    width: 25%;
-}
-.c-2{
-    width: 50%;
-}
-.c-3{
-    width: 75%;
-}
-.c-4{
-    width: 100%;
-}
-.m-1{
-    margin-left: 25% ;
-}
-.m-2{
-    margin-left: 50%;
-}
-.m-3{
-    margin-left: 75%;
-}
-
 /* ECRANS LARGEUR SUP A 700PX*/
 @media (min-width:700px) {
+    .browser-container{
+        width: 100%;
+    }
     .browser-c-1{
         width: 25%;
     }
@@ -63,9 +48,16 @@ div{
     .browser-c-4{
         width: 100%;
     }
+    .browser-c-95{
+        margin: 95%;
+    }
     .browser-m-1{
         margin-left: 25% ;
     }
+    .browser-m-14{
+        margin-left: 14% ;
+    }
+
     .browser-m-2{
         margin-left: 50%;
     }
@@ -85,11 +77,26 @@ div{
         width: 15%;
     }
 
+    p.boxes{
+        box-sizing: border-box;
+    }
+
     .h-1{
-        height: 200px;
+        height: 150px;
+        padding-top: 65px;
     }
 
     .h-2{
-        height: 400px;
+        height: 320px;
+        padding-top: 150px;
     }
+
+    .grey{
+        background-color: grey;
+    }
+
+    .darkgrey{
+        background-color: darkgray;
+    }
+
 }
