@@ -14,7 +14,7 @@ div{
 
 .container{
     box-sizing: border-box;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .boxes{
@@ -24,6 +24,14 @@ div{
     margin: 10px;
     text-align: center;
     background-color: aquamarine;
+}
+
+.w-95{
+    margin-right: 10px;
+}
+
+.w-95-m{
+    margin-right: 10px;
 }
 
 .hide{
@@ -77,6 +85,10 @@ div{
         width: 15%;
     }
 
+    #left-menu{
+        list-style: none;
+    }
+
     p.boxes{
         box-sizing: border-box;
     }
@@ -97,6 +109,10 @@ div{
 
     .darkgrey{
         background-color: darkgray;
+    }
+
+    .w-95-browser{
+        width: 100%;
     }
 
 }
